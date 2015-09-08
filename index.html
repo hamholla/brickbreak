@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="game.css">
 <head>
     <meta charset="utf-8" />
     <title>BrickBreaker</title>
@@ -114,7 +115,7 @@ function drawBall() {
 function drawPaddle() {
     ctx.beginPath();
     ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
-    ctx.fillStyle = "#ffd600";
+    ctx.fillStyle = "#607d8b";
     ctx.fill();
     ctx.closePath();
 }
